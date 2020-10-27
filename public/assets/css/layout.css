@@ -1,0 +1,146 @@
+*, ::after, ::before {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    font-size: 62.5%;
+  }
+
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(25, 179, 138);
+  }
+
+  header {
+      border-bottom: 1px solid rgb(25, 179, 138);
+      padding: 1%;
+  }
+
+  .title-subtitle {
+      display: flex;
+      justify-content: space-between;
+  }
+
+  section {
+    border-bottom: 1px solid rgb(25, 179, 138);
+    padding: 1%;
+  }
+
+  section:last-of-type {
+    border-bottom: 0px;
+  }
+
+  .archive-container {
+      display: flex;
+      justify-content: center;
+      /* width: 100%; */
+  }
+
+  .archive-items {
+      width: 100%;
+      margin-top: 5%;
+      padding: 1%;
+  }
+
+  #background-video {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+    z-index: -100000000;
+  }
+
+  .archive-video {
+      margin: 1%;
+      max-width: 25%; /* 5 per row */
+      border: 1px solid rgb(25, 179, 138);
+  }
+
+  #video-placeholder {
+    display: flex;
+    transition: 0.5s;
+  }
+
+  #recorded {
+    display: inline-block;
+    width: 100%;
+  }
+
+  h1 {
+      font-size: 6rem;
+      font-weight: normal;
+      text-align: center;
+  }
+
+  h2.subtitle {
+      flex-shrink: 5;
+      font-size: 3rem;
+      font-weight: normal;
+      color: white;
+      width: 40%;
+  }
+
+  nav {
+      font-size: 3rem;
+  }
+
+  ul {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul li {
+    display: inline-block; 
+  }
+
+  a:link, a:active {
+      color: rgb(25, 179, 138);
+      text-decoration: none;
+  }
+
+  a:hover {
+      border-top: 1px solid rgb(25, 179, 138);
+  }
+
+  footer {
+      width: 100%;
+      position: fixed;
+      bottom: 0;
+  }
+
+  .webcam, .stage {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+  }
+
+  .upload {
+      width: 100%;
+  }
+
+  .upload-buttons {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  button {
+    cursor: pointer;
+    color: rgb(25, 179, 138);
+    background: transparent;
+    border: 1px solid rgb(25, 179, 138);
+    padding: 2%;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 1.25vw;
+    text-align: center;
+  }
+
+  button:hover {
+      color: white;
+      background: rgb(25, 179, 138);
+  }

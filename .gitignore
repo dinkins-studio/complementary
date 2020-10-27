@@ -1,0 +1,6 @@
+.DS_Store
+node_modules
+video*
+.env
+gallery.html
+galleryWebcam.js
