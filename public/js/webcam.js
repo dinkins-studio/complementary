@@ -16,7 +16,7 @@ function startCapture() {
   // place and size the video
   capture.parent('#video-placeholder');
   capture.style('class', 'webcam-shape');
-  capture.size(320, 240);
+  capture.size(640, 480);
   capture.elt.volume = 0;
 }
 
@@ -89,3 +89,7 @@ submitButton.onclick = e => {
 privacyButton.onclick = e => {
   window.alert("By clicking “submit” you grant this website permission to display your video on this website.");
 };
+
+if (navigator.userAgent.match(/Mobile/)) {
+  document.getElementById('switch-to-desktop').innerHTML = 'Please view this webpage in landscape orientation on a desktop to experience all of its features. Thank you!';
+  }

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'violet';
+  src: url('fonts/VioletSans-Regular.woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 *, ::after, ::before {
     padding:0;
     margin:0;
@@ -11,12 +18,12 @@
   }
 
   body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'violet', Arial, Helvetica, sans-serif;
     color: rgb(37, 172, 96);
   }
 
   header {
-      border-bottom: 1px solid rgb(37, 172, 96);
+      border-bottom: 0.25vw solid rgb(37, 172, 96);
       padding: 1%;
   }
 
@@ -26,7 +33,7 @@
   }
 
   section {
-    border-bottom: 1px solid rgb(37, 172, 96);
+    border-bottom: 0.25vw solid rgb(37, 172, 96);
     padding: 1%;
   }
 
@@ -53,17 +60,21 @@
     min-width: 100%; 
     min-height: 100%;
     z-index: -100000000;
+    background: black;
+    opacity: .8;
   }
 
   .archive-video {
       margin: 1%;
       width: 25% !important; /* 5 per row */
-      border: 1px solid rgb(37, 172, 96);
+      border: 0.25vw solid rgb(37, 172, 96);
   }
 
   #video-placeholder {
     display: flex;
     transition: 0.5s;
+    margin-top: 1%;
+    padding: 1%;
   }
 
   #video-placeholder video {
@@ -79,17 +90,40 @@
   }
 
   h1.title {
-      font-size: 4vw;
-      font-weight: normal;
+      font-size: 5vw;
+      font-weight: bold;
       text-align: center;
+  }
+
+  .title:hover {
+    color: black;
   }
 
   h2.subtitle {
       flex-shrink: 5;
-      font-size: 2vw;
-      font-weight: normal;
-      color: white;
+      font-size: 1.5vw;
+      font-weight: bold;
+      line-height: 1.75vw;
+      color: black;
       width: 40%;
+  }
+
+  h2.archive {
+    text-align: center;
+    margin-top: 5%;
+    font-size: 1.5vw;
+    font-weight: bold;
+    color: black;
+    width: 25%;
+}
+
+
+  .subtitle:hover {
+    color:  rgb(37, 172, 96);
+  }
+
+.asterisk {
+    font-size: 1.2vw !important;
   }
 
   nav {
@@ -107,11 +141,9 @@
 
   a:link, a:active, a:visited {
       color: rgb(37, 172, 96);
+      font-weight: bold;
       text-decoration: none;
-  }
-
-  a:hover {
-      border-top: 1px solid rgb(37, 172, 96);
+      text-transform: uppercase;
   }
 
   footer {
@@ -139,15 +171,17 @@
     cursor: pointer;
     color: rgb(37, 172, 96);
     background: transparent;
-    border: 1px solid rgb(37, 172, 96);
+    border: 0.25vw solid rgb(37, 172, 96);
     padding: 2%;
     display: inline-block;
-    font-weight: normal;
+    text-transform: uppercase;
+    font-family: 'violet', Arial, Helvetica, sans-serif;
+    font-weight: bold;
     font-size: 1.25vw;
     text-align: center;
   }
 
   button:hover {
-      color: white;
+      color: black;
       background: rgb(37, 172, 96);
   }
