@@ -1,65 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta http-equiv="x-ua-compatible" content="ie=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>COMPLEMENTARY</title>
-    <link rel="stylesheet" type="text/css" href="assets/css/layout.css" />
-  </head>
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>COMPLEMENTARY</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/layout.css" />
+</head>
 
-  <body onload="startCapture()">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.1.9/p5.js"></script>
 
-    <header> 
-      <div class="title-subtitle">
-        <h1 class="title"> COMPLEMENTARY </h1> 
-        <h2 class="subtitle"> 
-          If you were to speak directly to the most powerful person in the world, 
-          what would you want them to know about you and your community? 
-        </h2>
-      </div>
-    </header>
+<body onload="startCapture()">
 
-    <section class="webcam">
-      <div id="video-placeholder">
-      </div>
-    </section>
-
-    <section class="upload">
-      <div class="upload-buttons">
-        <button id="submit" class="submit-button"> submit </button>
-        <button id="record" class="record-button"> record </button>
-        <button id="privacy" class="privacy-button"> privacy </button>
-      </div>
-    </section>
-
-    <section class="stage">
-      <div id="recording"> </div>
-    </section>
-
-
-    <video autoplay muted loop id="background-video">
-      <source src="assets/videos/sample-flags.mp4">
-        Your browser doesn't support HTML5 video.
-    </video>
-        
-    <div class="archive-container" id="app">
-      <div class="archive-items" id="videos-container">
-      </div>
+  <header>
+    <div class="title-subtitle">
+      <h1 class="title"> COMPLEMENTARY </h1>
+      <h2 class="subtitle">
+        If you were to speak directly to the most powerful person in the world,
+        what would you want them to know about you and your community?
+      </h2>
     </div>
-    
-    <footer>
-      <!-- <nav>
-        <ul>
-          <li> <a href="#"> Info </a> </li>
-          <li> <a href="#videos-container"> Archive </a> </li>
-        </ul>
-      </nav> -->
-    </footer>
+  </header>
 
-    <!-- <script src="js/archive.js"></script> -->
-    <script src="js/webcam.js"></script>
-  </body>
+  <section class="webcam">
+    <div id="video-placeholder">
+    </div>
+  </section>
+
+  <section class="upload">
+    <div class="upload-buttons">
+      <button id="submit" class="submit-button"> submit </button>
+      <button id="record" class="record-button"> record </button>
+      <button id="privacy" class="privacy-button"> privacy </button>
+    </div>
+  </section>
+
+  <section class="stage">
+    <div id="recording"> </div>
+  </section>
+
+
+  <video autoplay muted loop id="background-video">
+    <source src="assets/videos/installation.mp4">
+    Your browser doesn't support HTML5 video.
+  </video>
+
+  <div class="archive-container" id="app">
+    <div class="archive-items" id="videos-container">
+    </div>
+  </div>
+
+  <footer>
+    <nav>
+        <ul>
+          <li> <a href="https://www.stephaniedinkins.com/complementary.html"> Info </a> </li>
+          <li> <a href="https://livestream.com/accounts/8438913/events/9369978" target="_blank"> Livestream </a> </li>
+        </ul>
+      </nav>
+  </footer>
+
+  <script src="js/archive.js"></script>
+  <script src="js/webcam.js"></script>
+</body>
+
 </html>
