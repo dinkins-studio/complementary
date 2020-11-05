@@ -116,10 +116,12 @@
     color: black;
     width: 25%;
 }
-
-
   .subtitle:hover {
     color:  rgb(37, 172, 96);
+  }
+
+  .mobile {
+    font-size: 25px;
   }
 
 .asterisk {

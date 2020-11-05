@@ -91,5 +91,5 @@ privacyButton.onclick = e => {
 };
 
 if (navigator.userAgent.match(/Mobile/)) {
-  document.getElementById('switch-to-desktop').innerHTML = 'Please view this webpage in landscape orientation on a desktop to experience all of its features. Thank you!';
+  document.getElementById('switch-to-desktop').innerHTML = 'Please view this webpage on a desktop to experience all of its features. Thank you!';
   }
