@@ -15,8 +15,7 @@ function startCapture() {
   });
   // place and size the video
   capture.parent('#video-placeholder');
-  capture.style('class', 'webcam-shape');
-  capture.size(640, 480);
+  capture.size(320, 240);
   capture.elt.volume = 0;
 }
 
