@@ -20,6 +20,12 @@
   body {
     font-family: 'violet', Arial, Helvetica, sans-serif;
     color: black;
+    background: url('images/miriam.png') no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
   }
 
   header {
@@ -61,6 +67,7 @@
     min-height: 100%;
     z-index: -100000000;
     background: black;
+    mix-blend-mode: multiply;
     opacity: .8;
   }
 
@@ -72,7 +79,6 @@
 
   #video-placeholder {
     display: flex;
-    transition: 0.5s;
     margin-top: 1%;
     padding: 1%;
   }
