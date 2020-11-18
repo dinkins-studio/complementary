@@ -19,11 +19,11 @@
 
   body {
     font-family: 'violet', Arial, Helvetica, sans-serif;
-    color: rgb(37, 172, 96);
+    color: black;
   }
 
   header {
-      border-bottom: 0.25vw solid rgb(37, 172, 96);
+      border-bottom: 0.55vw solid black;
       padding: 1%;
   }
 
@@ -33,7 +33,7 @@
   }
 
   section {
-    border-bottom: 0.25vw solid rgb(37, 172, 96);
+    border-bottom: 0.55vw solid black;
     padding: 1%;
   }
 
@@ -67,7 +67,7 @@
   .archive-video {
       margin: 1%;
       width: 35% !important; 
-      border: 0.25vw solid rgb(37, 172, 96);
+      border: 0.55vw solid black;
   }
 
   #video-placeholder {
@@ -101,9 +101,9 @@
 
   h2.subtitle {
       flex-shrink: 5;
-      font-size: 1.5vw;
+      font-size: 2.5vw;
       font-weight: bold;
-      line-height: 1.75vw;
+      line-height: 2.25vw;
       color: black;
       width: 40%;
   }
@@ -116,16 +116,13 @@
     color: black;
     width: 25%;
 }
-  .subtitle:hover {
-    color:  rgb(37, 172, 96);
-  }
 
   .mobile {
     font-size: 25px;
   }
 
 .asterisk {
-    font-size: 1.2vw !important;
+    font-size: 1.75vw !important;
   }
 
   nav {
@@ -142,7 +139,7 @@
   }
 
   a:link, a:active, a:visited {
-      color: rgb(37, 172, 96);
+      color: black;
       font-weight: bold;
       text-decoration: none;
       text-transform: uppercase;
@@ -171,9 +168,9 @@
 
   button {
     cursor: pointer;
-    color: rgb(37, 172, 96);
-    background: transparent;
-    border: 0.25vw solid rgb(37, 172, 96);
+    color: black;
+    background: rgb(70, 52, 38, 0.75);
+    border: 0.55vw solid black;
     padding: 2%;
     display: inline-block;
     text-transform: uppercase;
@@ -181,9 +178,4 @@
     font-weight: bold;
     font-size: 1.25vw;
     text-align: center;
-  }
-
-  button:hover {
-      color: black;
-      background: rgb(37, 172, 96);
   }
